@@ -3,7 +3,7 @@
 		"app": "Demo Application",
 		"author": "Jake Bown",
 		"email": "jakebown@gmail.com",
-		"views": "",
+		"views": "views/",
 
 		"components": {
 			"fullWidthHeader": "fullWidthHeader.html",
