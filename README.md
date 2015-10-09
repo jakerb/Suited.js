@@ -49,15 +49,12 @@ of this demonstration, we'll create the variables within our js file.
 	});
 
 	tasche.run();
-	</pre>
+</pre>
+
+Now that our `app.js` file has been created and added to our `index.html` page, we start by initializing the app by calling our properties file (`tasche.json`), this file contains information about the app as well as static variables, pages and components.
+
+If you add variables into the properties as well as your app js file, the app will always render the content from your app as an override.
 	
-	Now that our `app.js` file has been created and added to our `index.html` page, we start by initializing the app by calling
-	our properties file (`tasche.json`), this file contains information about the app as well as static variables, pages and components.
-	If you add variables into the properties as well as your app js file, the app will always render the content from your app as an override.
+After the `init` has been called, we can now add our `index` page which will contain all of the variables for our components in key value pairs. You can add as many variables as you wish and use as many as you want inside the application, if they are not found in the component file, they won't come through or cause an error. 
 	
-	After the `init` has been called, we can now add our `index` page which will contain all of the variables for our components in key
-	value pairs. You can add as many variables as you wish and use as many as you want inside the application, if they are not found in the 
-	component file, they won't come through or cause an error. 
-	
-	Once you are happy with the `app.js` file and all of the information within, you can now `run` the application which will then render the 
-	variables inside the components within the views!
+Once you are happy with the `app.js` file and all of the information within, you can now `run` the application which will then render the variables inside the components within the views!
