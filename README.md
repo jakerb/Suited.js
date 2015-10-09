@@ -3,7 +3,7 @@
 </p>
 
 # Suited.js
-Suited is a JS framework for creating sites and apps with templates and variables.
+Suited is a JS framework for creating sites and apps with templates and variables. Suited is built on top of <a href="https://github.com/jakerb/Tasche">Tasche.js</a> a JS template framework I had built in a previous project, if you wonder why the `tasche` variable is being called so much, that is why.
 
 # Getting Started
 Suited relies on templates (the .html type) to render out websites, the way is does this is with the {{handlebars}} 
