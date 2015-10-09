@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="img/logo.png" alt="">
+</p>
+
 # Suited.js
 Suited is a JS framework for creating sites and apps with templates and variables.
 
