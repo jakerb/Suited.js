@@ -1,0 +1,35 @@
+{
+	"tasche": {
+		"app": "Demo Application",
+		"author": "Jake Bown",
+		"email": "jakebown@gmail.com",
+		"views": "",
+
+		"components": {
+			"fullWidthHeader": "fullWidthHeader.html",
+			"subscribeBar": "subscribeBar.html",
+			"textPost": "textPost.html"
+		}, 
+
+		"pages": {
+			"index": {
+				"fullWidthHeader": {
+					"header": "Hello World",
+					"subheader": "All your base are belong to us.",
+					"intro": "Welcome to this example"
+				},
+
+				"subscribeBar": {
+					"header": "Subscribe Now", 
+					"email": "sameple@gmail.com",
+					"action": "/post/to/form" 
+				}, 
+
+				"textPost": {
+					"header": "A simple text post",
+					"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sint quasi explicabo!"
+				}
+			} 
+		}
+	}
+}
